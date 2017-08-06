@@ -147,14 +147,14 @@ class TableViewController: UITableViewController {
 ## Installing
 
 ###### CocoaPod
-`pod 'MVVMSwiftPattern'`
+`pod 'SwiftMVVMPattern'`
 
-`pod 'MVVMSwiftPattern/Presenter'`
+`pod 'SwiftMVVMPattern/Presenter'`
 
-`pod 'MVVMSwiftPattern/Context'`
+`pod 'SwiftMVVMPattern/Context'`
 
 ###### Carthage
-`github "falcon283/MVVMSwiftPattern"`
+`github "falcon283/SwiftMVVMPattern"`
 
 ## Authors
 
