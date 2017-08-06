@@ -8,4 +8,10 @@
 
 import Foundation
 
+/**
+ This empty protocol identify a View object in the MVVM Design Pattern.
+ 
+ - Note: Keep in mind that a View in MVVM can be either a `UIView`
+ subclass or a `UIViewController` subclass
+ */
 public protocol View { }

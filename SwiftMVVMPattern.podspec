@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SwiftMVVMPattern"
-  s.version      = "0.9.0"
+  s.version      = "0.9.1"
   s.summary      = "A small framework to adopt MVVM as Design Pattern."
 
   s.description  = <<-DESC

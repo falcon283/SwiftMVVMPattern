@@ -19,6 +19,7 @@ class UserCell : UITableViewCell, Contextable, Presentable {
     override func prepareForReuse() {
         super.prepareForReuse()
         
+        context = nil
         nameLabel?.text = nil
         surnameLabel?.text = nil
     }

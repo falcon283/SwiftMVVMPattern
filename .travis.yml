@@ -1,4 +1,7 @@
 {
+  "branches": {
+    "only": ["master"]
+  },
   "language": "objective-c",
   "osx_image": "xcode8.3",
   "env": "DESTINATION_iOS=\"OS=10.3.1,name=iPhone 7 Plus\"    DESTINATION_macOS=\"arch=x86_64\"   DESTINATION_watchOS=\"OS=3.2,name=Apple Watch Series 2 - 42mm\"   DESTINATION_tvOS=\"name=Apple TV 1080p\" DESTINATION_Sample_iOS=\"OS=10.3.1,name=iPhone 7 Plus\"  PROJECT=\"MVVMKit.xcodeproj\"     SCHEME=\"SwiftMVVMPattern\"    SAMPLE_SCHEME=\"SwiftMVVMPatternSample\"     RUN_TESTS=\"NO\"    BUILD_SAMPLE=\"YES\"    POD_LINT=\"NO\"",
