@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D51874DA1F018F8A006AB80A"
-               BuildableName = "MVVMKit.framework"
-               BlueprintName = "MVVMKit"
+               BlueprintIdentifier = "D58090D91F36D23300B97956"
+               BuildableName = "SwiftMVVMPattern.framework"
+               BlueprintName = "SwiftMVVMPattern-macOS"
                ReferencedContainer = "container:MVVMKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D51874E31F018F8A006AB80A"
-               BuildableName = "MVVMKitTests.xctest"
-               BlueprintName = "MVVMKitTests"
-               ReferencedContainer = "container:MVVMKit.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D51874DA1F018F8A006AB80A"
-            BuildableName = "MVVMKit.framework"
-            BlueprintName = "MVVMKit"
-            ReferencedContainer = "container:MVVMKit.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -64,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D51874DA1F018F8A006AB80A"
-            BuildableName = "MVVMKit.framework"
-            BlueprintName = "MVVMKit"
+            BlueprintIdentifier = "D58090D91F36D23300B97956"
+            BuildableName = "SwiftMVVMPattern.framework"
+            BlueprintName = "SwiftMVVMPattern-macOS"
             ReferencedContainer = "container:MVVMKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D51874DA1F018F8A006AB80A"
-            BuildableName = "MVVMKit.framework"
-            BlueprintName = "MVVMKit"
+            BlueprintIdentifier = "D58090D91F36D23300B97956"
+            BuildableName = "SwiftMVVMPattern.framework"
+            BlueprintName = "SwiftMVVMPattern-macOS"
             ReferencedContainer = "container:MVVMKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

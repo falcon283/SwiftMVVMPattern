@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import MVVMKit
+import SwiftMVVMPattern
 
 class UserCell : UITableViewCell, Contextable, Presentable {
     

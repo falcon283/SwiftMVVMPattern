@@ -6,8 +6,8 @@
 //  Copyright © 2017 Gabriele Trabucco. All rights reserved.
 //
 
-import Foundation
-import MVVMKit
+import UIKit
+import SwiftMVVMPattern
 
 final class GenderViewPresenter : Presenter<GenderView, UserViewModel> {
     override func update(view: GenderView, with viewModel: UserViewModel) {

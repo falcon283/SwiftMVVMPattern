@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import MVVMKit
+import SwiftMVVMPattern
 
 class UserView : UIView {
     @IBOutlet weak var label: UILabel?

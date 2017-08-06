@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import MVVMKit
+import SwiftMVVMPattern
 
 protocol UserVCProtocol : class {
     var viewModel: UserViewModel? { get set }

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import MVVMKit
+import SwiftMVVMPattern
 
 class GenderView: UIView {
     @IBOutlet weak var imageView: UIImageView?

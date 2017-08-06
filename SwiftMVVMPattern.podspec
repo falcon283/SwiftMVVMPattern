@@ -20,10 +20,10 @@ Pod::Spec.new do |s|
   s.author       = { "Gabriele Trabucco" => "gabrynet83@gmail.com" }
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
-  # s.osx.deployment_target = "10.7"
-  # s.watchos.deployment_target = "2.0"
-  # s.tvos.deployment_target = "9.0"
+  s.ios.deployment_target = "9.0"
+  s.osx.deployment_target = "10.10"
+  s.watchos.deployment_target = "2.0"
+  s.tvos.deployment_target = "9.0"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -43,15 +43,21 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "MVVMKit/Classes/ViewModel/*.{h,m,swift}",
-                    "MVVMKit/Classes/View/*.{h,m,swift}"
+  s.subspec 'Base' do |b|
+    b.source_files  =   "MVVMKit/Classes/ViewModel/*.{h,m,swift}",
+                        "MVVMKit/Classes/View/*.{h,m,swift}"
+  end
+
+  s.default_subspec = 'Base'
 
   s.subspec 'Context' do |ctx|
      ctx.source_files  = "MVVMKit/Classes/Context/*.{h,m,swift}"
+     ctx.dependency 'SwiftMVVMPattern/Base', s.version.to_s
   end
 
   s.subspec 'Presenter' do |prs|
      prs.source_files  = "MVVMKit/Classes/Presenter/*.{h,m,swift}"
+     prs.dependency 'SwiftMVVMPattern/Base', s.version.to_s
   end
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

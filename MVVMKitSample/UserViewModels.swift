@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import MVVMKit
+import SwiftMVVMPattern
 
 struct UserViewModel : ViewModel {
     

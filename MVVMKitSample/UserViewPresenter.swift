@@ -6,8 +6,8 @@
 //  Copyright © 2017 Gabriele Trabucco. All rights reserved.
 //
 
-import Foundation
-import MVVMKit
+import UIKit
+import SwiftMVVMPattern
 
 class UserViewPresenter : Presenter<UserView, UserViewModel> {
     var primaryColor: UIColor
