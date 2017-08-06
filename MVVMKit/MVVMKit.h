@@ -2,7 +2,7 @@
 //  MVVMKit.h
 //  MVVMKit
 //
-//  Created by FaLcON2 on 26/06/2017.
+//  Created by Gabriele Trabucco on 26/06/2017.
 //  Copyright © 2017 Gabriele Trabucco. All rights reserved.
 //
 

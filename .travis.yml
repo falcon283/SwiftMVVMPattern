@@ -1,0 +1,15 @@
+{
+  "language": "objective-c",
+  "osx_image": "xcode8.3",
+  "env": "DESTINATION=\"OS=10.3.1,name=iPhone 7 Plus\"    PROJECT=\"MVVMKit.xcodeproj\"     SCHEME=\"MVVMKit\"    SAMPLE_SCHEME=\"MVVMKitSample\"     RUN_TESTS=\"NO\"    BUILD_SAMPLE=\"YES\"    POD_LINT=\"NO\"",
+  "script": [
+    "set -o pipefail",
+    "xcodebuild -version",
+    "xcodebuild -showsdks",
+    "if [ $RUN_TESTS == \"YES\" ]; then xcodebuild -project \"$PROJECT\" -scheme \"$SCHEME\" -destination \"$DESTINATION\" -configuration Debug ONLY_ACTIVE_ARCH=NO ENABLE_TESTABILITY=YES test | xcpretty; else xcodebuild -project \"$PROJECT\" -scheme \"$SCHEME\" -destination \"$DESTINATION\" -configuration Debug ONLY_ACTIVE_ARCH=NO build | xcpretty; fi",
+    "if [ $RUN_TESTS == \"YES\" ]; then xcodebuild -project \"$PROJECT\" -scheme \"$SCHEME\" -destination \"$DESTINATION\" -configuration Release ONLY_ACTIVE_ARCH=NO ENABLE_TESTABILITY=YES test | xcpretty; else xcodebuild -project \"$PROJECT\" -scheme \"$SCHEME\" -destination \"$DESTINATION\" -configuration Release ONLY_ACTIVE_ARCH=NO build | xcpretty; fi",
+    "if [ $BUILD_SAMPLE == \"YES\" ]; then xcodebuild -project \"$PROJECT\" -scheme \"$SAMPLE_SCHEME\" -destination \"$DESTINATION\" -configuration Debug ONLY_ACTIVE_ARCH=NO build | xcpretty; fi",
+    "if [ $POD_LINT == \"YES\" ]; then pod lib lint; fi"
+  ],
+  "os": "osx"
+}
