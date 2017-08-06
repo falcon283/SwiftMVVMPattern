@@ -1,4 +1,4 @@
-MVVMSwiftPattern 
+SwiftMVVMPattern 
 ================
 
 [![Build Status](https://travis-ci.org/falcon283/SwiftMVVMPattern.svg?branch=master)](https://travis-ci.org/falcon283/SwiftMVVMPattern)
@@ -8,7 +8,7 @@ MVVMSwiftPattern
 [![Swift Version](https://img.shields.io/badge/Swift-3-F16D39.svg?style=flat)](https://developer.apple.com/swift)
 [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/falcon283/SwiftMVVMPattern/blob/master/LICENSE)
 
-MVVMSwiftPattern is a set of protocols that allow you to enforce your iOS application to conform the MVVM Design Pattern.
+SwiftMVVMPattern is a set of protocols that allow you to enforce your iOS application to conform the MVVM Design Pattern.
 
 ## Description
 
